@@ -45,9 +45,30 @@
                          voluptatibus impedit!</p>
 
                          <div class="tab-titles">
-                            <p class = "tab-links active-link">Skills</p>
-                            <p class = "tab-links">Experience</p>
-                            <p class = "tab-links">Education</p>
+                            <p class = "tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class = "tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class = "tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id = "Skills">
+                            <ul>
+                                <li><span>Web development</span><br>Web/App development</li>
+                                <li><span>DSA</span><br>Problem solver</li>
+                                <li><span>Youtuber</span><br>Vlogging</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id = "Experience">
+                            <ul>
+                                <li><span>2025 - Current</span><br>HTML, CSS, JS.</li>
+                                <li><span>2024 - Ongoing</span><br>Going hard at Leetcode and Codeforces.</li>
+                                <li><span>2024 - Ongoing</span><br>Documenting my life.</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id = "Education">
+                            <ul>
+                                <li><span>Newton School Of Technology</span><br>B.tech in Computer Sciennce in Artificial Intelligence and Machine Learning.</li>
+                            </ul>
                          </div>
                 </div>
             </div>
